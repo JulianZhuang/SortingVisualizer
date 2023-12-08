@@ -1,0 +1,47 @@
+.nobita-room {
+    background-color: skyblue;
+    width: 100%;
+    height: 100%;
+}
+
+.array-container {
+    height: 100%;
+    background-color: skyblue;
+    position: relative;
+    transform: scaleY(-1); /* Flip the bars */
+} 
+
+.array-bar {
+    width: 3px;
+    /* background-color: lightgray; */
+    display: inline-block;
+    margin: 0px 1px; 
+    border-radius: 50% 20% / 10% 40%;
+}
+
+.doraemon {
+    height:15%;
+    width: 15%;
+    display: inline-block;
+}
+
+.toolbar {
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    border-radius: 100%;
+    border-style: none;
+    background-color: white;
+}
+
+#bell {
+    background-color: rgb(252,255,164);
+}
